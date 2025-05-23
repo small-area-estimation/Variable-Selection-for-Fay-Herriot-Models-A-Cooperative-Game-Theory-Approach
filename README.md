@@ -1,0 +1,2 @@
+# Variable-Selection-for-Fay-Herriot-Models-A-Cooperative-Game-Theory-Approach
+This repository provides a reproducible example of the methodology proposed in the paper "Variable Selection for Fay-Herriot Models: A Cooperative Game Theory Approach". It includes a script that illustrates how to compute the Shapley-based influence measure and apply the variable selection algorithm to a synthetic dataset.
