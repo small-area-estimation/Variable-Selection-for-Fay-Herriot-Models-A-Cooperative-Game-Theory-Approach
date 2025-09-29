@@ -6,7 +6,7 @@ The file Example.csv contains the variables used in the analysis. The columns in
 
 The synthetic dataset is generated as follows:
 - Number of areas/domains: $D=50$ 
-- Target variables: $y_d = \mathbf{x}_d^\top \boldsymbol{\beta} + u_d + e_d$, $u_d \sim \mathcal{N}(0,\sigma_u^2)$ and $e_d \sim \mathcal{N}(0,\sigma_{ed}^2)$, independently.
+- Target variables: $y_d = \mathbf{x}_d\boldsymbol{\beta} + u_d + e_d$, $u_d \sim \mathcal{N}(0,\sigma_u^2)$ and $e_d \sim \mathcal{N}(0,\sigma_{ed}^2)$, independently.
 - Random effects variance: $\sigma_u^2 = 1$
 - Sampling error variances:  $\sigma^2_{ed} = \alpha_0 + \frac{(\alpha_1-\alpha_0)(d-1)}{D-1}$ with $\alpha_0=0.8$, $\alpha_1=1.2$, $d=1,\ldots,50$.
 - Auxiliary variables: $x_{di} \sim \mathcal{U}(0,3)$, independently for $i=1,2,3$, and $\boldsymbol{\beta}=(1,1,0.25)^\top$.
