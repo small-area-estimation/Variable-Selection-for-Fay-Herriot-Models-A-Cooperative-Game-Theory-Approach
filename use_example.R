@@ -11,6 +11,7 @@
 ### Simulating data 
 
 library(sae)
+library(TUvalues)
 
 data_example <- read.csv("Example.csv", header = T)
 
